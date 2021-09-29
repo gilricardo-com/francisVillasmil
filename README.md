@@ -25,7 +25,7 @@ This is a personal website created using the Paper Kit 2 Angular FREE template m
 Quick start options:
 
 - [Download from Github](https://github.com/gilricardo-com/francisVillasmil.git).
-- Clone the repo: `git clone https://github.com/gilricardo-com/francisVillasmil.git`.s
+- Clone the repo: `git clone https://github.com/gilricardo-com/francisVillasmil.git`.
 
 
 ## File Structure
