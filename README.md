@@ -1,6 +1,6 @@
 # [Francis Villasmil - Personal Website](https://francisvillasmil.com/)
 
-This is a personal website created using the Paper Kit 2 Angular FREE template made by Creative Tim
+This is a personal website created using the Now UI Kit Angular FREE template made by Creative Tim
 
 ## Table of Contents
 

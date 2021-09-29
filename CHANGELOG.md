@@ -1,32 +1,28 @@
-## [1.4.0] - 2020-12-14
+# Change Log
+
+## [1.3.0] 2020-12-16
 ### Updates
 - update to Angular 11
 - update all dependencies to match Angular 11 version
 
-## [1.3.0] - 2020-03-17
+## [1.2.0] 2020-03-16
 ### Updates
 - update to Angular 9
 - update all dependencies to match Angular 9 version
 
-## [1.2.0] - 2019-01-09
-### Updates
-- updated Angular to latest version(Angular 7)
-- updated Bootstrap to 4.1.2
-- updated all dependencies to fix the warnings
-- fixed error with responsive menu
-- fixed design errors for datepicker + tooltips
+## [1.1.0] 2019-03-14
+### Changes
+- update to Angular 7
+- update to ng-bootstrap 4
+- update all dependences
+- fixed datepicker design
+- changed sign up page from index with login page
+- changed icons
+- fixed badges design
 
+## [1.0.1] 2018-05-21
+### Changes
+- changed GitHub repository
 
-## [1.1.0] - 2018-08-21
-### Updates
-- updated Angular to latest version
-- updated Bootstrap to 4.1.0
-- updated ng-bootstrap to 2.0.0
-- updated all dependencies to fix the warnings
-
-## [1.0.1] - 2018-05-23
-### Fixes
-- changed some links
-
-## [1.0.0] - 2017-05-10
-### initial Release
+## [1.0.0] 2018-03-08
+### Initial Release

@@ -25,39 +25,19 @@ export class AppComponent implements OnInit {
                 window.document.activeElement.scrollTop = 0;
             }
             this.navbar.sidebarClose();
-        });
-        this.renderer.listen('window', 'scroll', (event) => {
-            const number = window.scrollY;
-            if (number > 150 || window.pageYOffset > 150) {
-                // add logic
-                navbar.classList.remove('navbar-transparent');
-            } else {
-                // remove logic
-                navbar.classList.add('navbar-transparent');
-            }
-        });
-        var ua = window.navigator.userAgent;
-        var trident = ua.indexOf('Trident/');
-        if (trident > 0) {
-            // IE 11 => return version number
-            var rv = ua.indexOf('rv:');
-            var version = parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
-        }
-        if (version) {
-            var body = document.getElementsByTagName('body')[0];
-            body.classList.add('ie-background');
 
-        }
+            this.renderer.listen('window', 'scroll', (event) => {
+                const number = window.scrollY;
+                var _location = this.location.path();
+                _location = _location.split('/')[2];
 
-    }
-    removeFooter() {
-        var titlee = this.location.prepareExternalUrl(this.location.path());
-        titlee = titlee.slice( 1 );
-        if(titlee === 'signup' || titlee === 'nucleoicons'){
-            return false;
-        }
-        else {
-            return true;
-        }
+                if (number > 150 || window.pageYOffset > 150) {
+                    navbar.classList.remove('navbar-transparent');
+                } else if (_location !== 'login' && this.location.path() !== '/nucleoicons') {
+                    // remove logic
+                    navbar.classList.add('navbar-transparent');
+                }
+            });
+        });
     }
 }
