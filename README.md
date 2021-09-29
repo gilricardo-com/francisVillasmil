@@ -4,17 +4,12 @@ This is a personal website created using the Paper Kit 2 Angular FREE template m
 
 ## Table of Contents
 
-* [Versions](#versions)
-* [Demo](#demo)
+* [Structure](#structure)
 * [Quick Start](#quick-start)
-* [Documentation](#documentation)
 * [File Structure](#file-structure)
 * [Browser Support](#browser-support)
 * [Resources](#resources)
-* [Reporting Issues](#reporting-issues)
-* [Technical Support or Questions](#technical-support-or-questions)
 * [Licensing](#licensing)
-* [Useful Links](#useful-links)
 
 
 ## Structure
