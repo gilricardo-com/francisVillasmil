@@ -14,10 +14,10 @@ This is a personal website created using the Now UI Kit Angular FREE template ma
 
 ## Structure
 
-- [Home](https://demos.creative-tim.com/paper-kit-2-angular/home)
-- [Reel](https://demos.creative-tim.com/paper-kit-2-angular/landing)
-- [Photo Gallery](https://demos.creative-tim.com/paper-kit-2-angular/signup)
-- [Contact Me](https://demos.creative-tim.com/paper-kit-2-angular/user-profile)
+- [Home](https://francisvillasmil.com/home)
+- [About Me](https://francisvillasmil.com/about)
+- [Reel](https://francisvillasmil.com/reel)
+- [Photo Gallery](https://francisvillasmil.com/gallery)
 
 
 ## Quick start
